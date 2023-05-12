@@ -54,17 +54,21 @@ function Footer() {
                     </ul>
                     <div className="div1">
                         <p>
+                            <br />
                             Equipe du projet: <br />
                         </p>
                         <p>
-                            -Djedjig Nada&nbsp;-Boukhetala Zaineb&nbsp;-Cherchem Sarah  <br />
-                        </p>
-                        <p>
-                            -Hamadene Kamelia&nbsp;      -Laouzai Lina&nbsp;      -Guitoun Djihene <br />
+                            -Djedjig Nada <br />
+                            -Boukhetala Zaineb <br />
+                            -Cherchem Sarah  <br />
+                            -Hamadene Kamelia <br />
+                            -Laouzai Lina <br />
+                            -Guitoun Djihene <br />
                         </p>
                     </div>
                     <div className='div2'>
                         <p>
+                            <br />
                             Equipe des encardrants du projet: <br />
                         </p>
                         <p>
@@ -75,30 +79,7 @@ function Footer() {
                         </p>
                     </div>
                 </div>
-                {/* <div className="divv">
-                    <div className="div1">
-                        <p>
-                            Equipe du projet: <br />
-                        </p>
-                        <p>
-                            -Djedjig Nada&nbsp;-Boukhetala Zaineb&nbsp;-Cherchem Sarah  <br />
-                        </p>
-                        <p>
-                            -Hamadene Kamelia&nbsp;      -Laouzai Lina&nbsp;      -Guitoun Djihene <br />
-                        </p>
-                    </div>
-                    <div className='div2'>
-                        <p>
-                            Equipe des encardrants du projet: <br />
-                        </p>
-                        <p>
-                            -Khouri Selma&nbsp;<br />
-                        </p>
-                        <p>
-                            -Khouani Amine&nbsp;<br />
-                        </p>
-                    </div>
-                </div> */}
+
             </InnerLayout>
         </FooterStyled>
     )
@@ -149,7 +130,7 @@ const FooterStyled = styled.footer`
 
     .divv{
         position: absolute;
-        bottom: 10%;
+        bottom: 20%;
         display: flex;
         justify-content: space-between;
         padding: .3rem 4;
