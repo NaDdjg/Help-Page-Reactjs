@@ -20,35 +20,35 @@ function Footer() {
                     <ul className="botton-nav">
                         <div className="links1">
                             <li>
-                                <a href="#">Team</a>
+                                <a href="https://app.netlify.com/user/settings">Team</a>
                             </li>
                             <li>
-                                <a href="#">Press</a>
+                                <a href="https://app.netlify.com/user/settings">Press</a>
                             </li>
                             <li>
-                                <a href="#">Fees</a>
+                                <a href="https://app.netlify.com/user/settings">Fees</a>
                             </li>
                         </div>
                         <div className="links2">
                             <li>
-                                <a href="#">Services</a>
+                                <a href="https://app.netlify.com/user/settings">Services</a>
                             </li>
                             <li>
-                                <a href="#">Projects</a>
+                                <a href="https://app.netlify.com/user/settings">Projects</a>
                             </li>
                             <li>
-                                <a href="#">Affiliate</a>
+                                <a href="https://app.netlify.com/user/settings">Affiliate</a>
                             </li>
                         </div>
                         <div className="links3">
                             <li>
-                                <a href="#">Terms of use</a>
+                                <a href="https://app.netlify.com/user/settings">Terms of use</a>
                             </li>
                             <li>
-                                <a href="#">Privacy Policy</a>
+                                <a href="https://app.netlify.com/user/settings">Privacy Policy</a>
                             </li>
                             <li>
-                                <a href="#">Contact us</a>
+                                <a href="https://app.netlify.com/user/settings">Contact us</a>
                             </li>
                         </div>
                     </ul>
