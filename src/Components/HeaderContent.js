@@ -4,33 +4,33 @@ import ring1 from '../img/ring_orange.svg';
 import message1 from '../img/message_pink.svg';
 import message2 from '../img/message_blue.svg';
 import shadow from '../img/logoflou.svg';
-import { Fade } from 'react-reveal';
+// import { Fade } from 'react-reveal';
 
 function HeaderContent() {
     return (
         <HeaderContentStyled>
-            <Fade left cascade>
-                <div className="left-content">
-                    <div className="left-text-container">
-                        <h1>Esi Maps</h1>
-                        <p className="white">
-                            Une application desktop qui permet aux etudiant de l’Esi de créer, de modifier et de partager des cartes mentales de manière simple et efficace
-                        </p>
-                        {/* <Secondarybutton name={'Register Now'} /> */}
+            {/* <Fade left cascade> */}
+            <div className="left-content">
+                <div className="left-text-container">
+                    <h1>Esi Maps</h1>
+                    <p className="white">
+                        Une application desktop qui permet aux etudiant de l’Esi de créer, de modifier et de partager des cartes mentales de manière simple et efficace
+                    </p>
+                    {/* <Secondarybutton name={'Register Now'} /> */}
 
-                    </div>
-                    <img src={shadow} alt="" className="shadowlogo" />
                 </div>
+                <img src={shadow} alt="" className="shadowlogo" />
+            </div>
 
-            </Fade>
-            <Fade right>
-                <div className="right-content">
-                    {/* <img src={phone} width="3000" height="220" alt="" className="phone" /> */}
-                    <img src={ring1} alt="" className="ring1" />
-                    <img src={message1} alt="" className="message1" />
-                    <img src={message2} alt="" className="message2" />
-                </div>
-            </Fade>
+            {/* </Fade> */}
+            {/* <Fade right> */}
+            <div className="right-content">
+                {/* <img src={phone} width="3000" height="220" alt="" className="phone" /> */}
+                <img src={ring1} alt="" className="ring1" />
+                <img src={message1} alt="" className="message1" />
+                <img src={message2} alt="" className="message2" />
+            </div>
+            {/* </Fade> */}
         </HeaderContentStyled>
     )
 }

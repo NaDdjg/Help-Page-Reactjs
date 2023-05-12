@@ -9,7 +9,7 @@ import MessagingSection from "./Components/MessagingSection";
 import RaccourciSection from "./Components/RaccourciSection";
 import FAQSection from "./Components/FAQSection";
 import Footer from "./Components/Footer";
-import { Fade } from "react-reveal";
+// import { Fade } from "react-reveal";
 
 function App() {
   return (
@@ -17,33 +17,33 @@ function App() {
       <Header />
       <OuterLayout>
         <MainStyled>
-          <Fade left>
-            <LoginSection />
-          </Fade>
-          <Fade right>
-            <HomeSection />
-          </Fade>
-          <Fade left>
-            <YearsSection />
-          </Fade>
-          <Fade right>
-            <ModuleSection />
-          </Fade>
-          <Fade left>
-            <MessagingSection />
-          </Fade>
-          <Fade right>
-            <RaccourciSection />
-          </Fade>
-          <Fade left>
-            <FAQSection />
-          </Fade>
+          {/* <Fade left> */}
+          <LoginSection />
+          {/* </Fade> */}
+          {/* <Fade right> */}
+          <HomeSection />
+          {/* </Fade> */}
+          {/* <Fade left> */}
+          <YearsSection />
+          {/* </Fade> */}
+          {/* <Fade right> */}
+          <ModuleSection />
+          {/* </Fade> */}
+          {/* <Fade left> */}
+          <MessagingSection />
+          {/* </Fade> */}
+          {/* <Fade right> */}
+          <RaccourciSection />
+          {/* </Fade> */}
+          {/* <Fade left> */}
+          <FAQSection />
+          {/* </Fade> */}
 
         </MainStyled>
       </OuterLayout>
-      <Fade bottom>
-        <Footer />
-      </Fade>
+      {/* <Fade bottom> */}
+      <Footer />
+      {/* </Fade> */}
     </div>
   );
 }

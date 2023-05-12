@@ -52,8 +52,6 @@ function Footer() {
                             </li>
                         </div>
                     </ul>
-                </div>
-                <div className="divv">
                     <div className="div1">
                         <p>
                             Equipe du projet: <br />
@@ -77,6 +75,30 @@ function Footer() {
                         </p>
                     </div>
                 </div>
+                {/* <div className="divv">
+                    <div className="div1">
+                        <p>
+                            Equipe du projet: <br />
+                        </p>
+                        <p>
+                            -Djedjig Nada&nbsp;-Boukhetala Zaineb&nbsp;-Cherchem Sarah  <br />
+                        </p>
+                        <p>
+                            -Hamadene Kamelia&nbsp;      -Laouzai Lina&nbsp;      -Guitoun Djihene <br />
+                        </p>
+                    </div>
+                    <div className='div2'>
+                        <p>
+                            Equipe des encardrants du projet: <br />
+                        </p>
+                        <p>
+                            -Khouri Selma&nbsp;<br />
+                        </p>
+                        <p>
+                            -Khouani Amine&nbsp;<br />
+                        </p>
+                    </div>
+                </div> */}
             </InnerLayout>
         </FooterStyled>
     )
@@ -126,6 +148,8 @@ const FooterStyled = styled.footer`
     }
 
     .divv{
+        position: absolute;
+        bottom: 10%;
         display: flex;
         justify-content: space-between;
         padding: .3rem 4;

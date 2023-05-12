@@ -2,17 +2,17 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import plus from '../img/plus.svg';
 import minus from '../img/minus.svg';
-import { Fade } from 'react-reveal';
+// import { Fade } from 'react-reveal';
 
-function Question({title, description}) {
+function Question({ title, description }) {
     const [toggle, setToggle] = useState(false);
 
-    const btnToggler = () =>{
+    const btnToggler = () => {
         setToggle(!toggle);
     }
 
     return (
-        <Fade left cascade>
+        // <Fade left cascade>
         <QuestionStyled>
             <div className="q-con">
                 <div className="toggle-title">
@@ -24,7 +24,7 @@ function Question({title, description}) {
                 {toggle && <p>{description}</p>}
             </div>
         </QuestionStyled>
-        </Fade>
+        // </Fade>
     )
 }
 
