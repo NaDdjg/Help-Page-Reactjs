@@ -1,0 +1,3 @@
+<Fade left>
+            <InstallationSection />
+          </Fade>
