@@ -1,3 +1,5 @@
+# Purpose and result
+the project is about a desktop application that allows Esi students to create, modify and share mind maps in a simple and efficient way
 You can see the result here: [link_to_the_help_page](https://main--resilient-arithmetic-1e8d03.netlify.app/).
 
 # Getting Started with Create React App
